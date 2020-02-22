@@ -1,0 +1,71 @@
+header {
+	background-color: salmon;
+	box-shadow: 0 5px 10px #565656;
+}
+
+header a {
+	color: white;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	height: 60px;
+}
+
+.header__logo {
+	font-weight: 900;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.header__link {
+	margin-left: 15px;
+}
+
+.burger {
+	display: none;
+}
+
+@media screen and (max-width: 1023px) {
+	.header__nav {
+		display: none;
+	}
+
+	.burger {
+		display: inline-block;
+
+		height: 28px;
+		width: 45px;
+		position: relative;
+
+		margin-bottom: 10px;
+	}
+
+	.burger__layer {
+		position: absolute;
+		bottom: 3px;
+
+		display: inline-block;
+
+		background-color: white;
+
+		width: 40px;
+		height: 2px;
+	}
+
+	.burger__layer.-one {
+		bottom: 17px;
+	}
+
+	.burger__layer.-two {
+		bottom: 9px;
+	}
+
+	.burger__layer.-three {
+		bottom: 0;
+	}
+
+}

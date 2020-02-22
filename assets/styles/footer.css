@@ -1,0 +1,15 @@
+footer {
+	background-color: #6e6e6e;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+
+	height: 200px;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+}

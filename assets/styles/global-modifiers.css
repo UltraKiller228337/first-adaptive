@@ -1,0 +1,11 @@
+.-g-mr15 {
+	margin-right: 15px;
+}
+
+.-g-ml15 {
+	margin-left: 15px;
+}
+
+@media screen and (max-width:1023px) {
+	
+}

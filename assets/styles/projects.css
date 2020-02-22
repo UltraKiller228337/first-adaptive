@@ -1,0 +1,45 @@
+.projects {
+	background-color: white;
+}
+
+.projects__title {
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+
+.projects__content {
+	max-width: 20%;
+
+	border-radius: 20px;
+
+	box-shadow: 3px 3px 6px gray;
+
+	margin-bottom: 60px;
+
+	transition: .6s;
+}
+
+.projects__content:hover {
+	max-width: 22%;
+}
+
+.projects__img {
+	border-radius: 20px 20px 0 0;
+}
+
+.projects__pictures {
+	display: flex;
+	justify-content: space-between;
+}
+
+.projects__info {
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.projects__info-date {
+	margin-bottom: 20px;
+	margin-left: 15px;
+
+	font-size: 15px;
+}
